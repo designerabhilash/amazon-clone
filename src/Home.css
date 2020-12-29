@@ -1,0 +1,42 @@
+a, a:hover, a:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+.home_banner {
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    height: 500px;
+    object-fit: cover;
+    object-position: top center;
+}
+.home_row {
+    display: flex;
+    z-index: 1;
+    gap: 20px;
+    width: 1280px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .home_banner {
+        height: 250px;
+    }
+    .home_row {
+        width: auto;
+        padding: 0 0.5rem;
+        gap: 5px;
+    }
+    .home_rowTwo {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}

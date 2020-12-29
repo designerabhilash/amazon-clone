@@ -1,0 +1,26 @@
+.order {
+    padding: 2rem;
+    margin: 1.25rem auto;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.order_id {
+    position: absolute;
+    right: 35px;
+    top: 35px;
+}
+.order_total {
+    text-align: right;
+}
+.order h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.order_total {
+    font-weight: 500;
+}
+.order_total strong {
+    font-weight: 500;
+}
